@@ -34,13 +34,14 @@ purpose. I certainly got wrong result.
         emailKey = emailKey.replace(".", "");
         return emailKey;
 
-into:
+    into:
 
-    return emailKey.replace(".", "");
+        return emailKey.replace(".", "");
 
-I would get the result:
+    I would get the result:
 
 ![oddResult.png] (http://dl.dropbox.com/u/54031414/CodeChallenges/FraudPrevention/oddResult.png)
+
 
 * **Check empty string**. `String.equals("")` is definitely faster than `String.length() > 0`
 
