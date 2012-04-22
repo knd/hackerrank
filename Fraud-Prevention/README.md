@@ -31,19 +31,21 @@ purpose. I certainly got wrong result.
 
 * **Odd piece of code** that I am still not sure why. If I were to combine the two lines of code 81, 82
 
-    emailKey = emailKey.replace(".", "");
-    return emailKey;
+        emailKey = emailKey.replace(".", "");
+        return emailKey;
 
 into:
 
     return emailKey.replace(".", "");
 
 I would get the result:
+
 ![oddResult.png] (http://dl.dropbox.com/u/54031414/CodeChallenges/FraudPrevention/oddResult.png)
 
 * **Check empty string**. `String.equals("")` is definitely faster than `String.length() > 0`
 
-* **StringTokenizer**. It is faster than `String.split(Object delimiter)` if a long string is encountered. The solution code I presented here has not been implemented with `StringTokenizer` yet.
+* **StringTokenizer**. It is faster than `String.split(Object delimiter)` for
+* long strings. The solution code I presented here has not been implemented with `StringTokenizer` yet.
 
 
     
