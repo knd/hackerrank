@@ -57,7 +57,7 @@ purpose. I certainly got wrong result.
 
 * **StringTokenizer**. It is faster than `String.split(Object delimiter)` for long strings. The solution code I presented here has not been implemented with `StringTokenizer` yet.
 
-
+* I'm coding in **Java**, not **Python**.
     
     
 
