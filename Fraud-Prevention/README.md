@@ -18,9 +18,11 @@ I wish they had provided a greater number of test cases.
 
 
 
+
 ### What I learned:
 ------------------
 * **Java Regex**. Initially, I used `String.split("+")` and I went on and read some docs about **Java Regex**. `String.split("\\+")` is the correct way. The consequence for not using the right **regex** is here:
+
 
 
 
@@ -43,6 +45,7 @@ purpose. I certainly got wrong result.
         return emailKey.replace(".", "");
 
     I would get the result:
+
 
 
 
