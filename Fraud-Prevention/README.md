@@ -4,7 +4,7 @@ Information:
 ### Scenario: 
 -------------
 This **Fraud Prevention** problem is located at [Interview Street] (http://cs2.interviewstreet.com/recruit/challenges#problems).
-I paid attention to and solved it after a job interview with a [Groupon] () engineer who is
+I paid attention to and solved it after a job interview with a [Groupon] (http://www.groupon.com) engineer who is
 working on this fraud matter. I am not going tell here how the interview was
 though. In order to view the problem, you should sign in [Interview Street] (http://cs2.interviewstreet.com/recruit/challenges#problems) 
 with your Google/Facebook/Twitter account since I am not going to describe the
