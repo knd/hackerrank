@@ -20,17 +20,17 @@ I wish they had provided a greater number of test cases.
 ### What I learned:
 ------------------
 * **Java Regex**. Initially, I used `String.split("+")` and here is the result:
+
 ![firstResult.png] (http://dl.dropbox.com/u/54031414/CodeChallenges/FraudPrevention/firstResult.png)
 
-I went to and read some docs about **Java Regex**. `String.split("\\+")` is the
-correct way.
+    I went to and read some docs about **Java Regex**. `String.split("\\+")` is the correct way.
 
 * **Difference between Hashtable methods: contains(Object value),
 containsKey(Object key), and containsValue(Object value)**. I should have not
 made any assumption before using them interchangeably. Each has different
 purpose. I certainly got wrong result.
 
-* **Odd piece of code** that I am still not sure why. If I were to combine the two lines of code 81, 82:
+* **Odd piece of code** that I am still not sure why. If I were to combine the two lines of code 81, 82
 
     emailKey = emailKey.replace(".", "");
     return emailKey;
