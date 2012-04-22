@@ -17,11 +17,15 @@ I wish they had provided a greater number of test cases.
 ![correctResult.png] (http://dl.dropbox.com/u/54031414/CodeChallenges/FraudPrevention/correctResult.png)
 
 
+
 ### What I learned:
 ------------------
 * **Java Regex**. Initially, I used `String.split("+")` and I went on and read some docs about **Java Regex**. `String.split("\\+")` is the correct way. The consequence for not using the right **regex** is here:
 
+
+
 ![firstResult.png] (http://dl.dropbox.com/u/54031414/CodeChallenges/FraudPrevention/firstResult.png)
+
 
 
 * **Difference between Hashtable methods: contains(Object value),
@@ -40,13 +44,15 @@ purpose. I certainly got wrong result.
 
     I would get the result:
 
+
+
 ![oddResult.png] (http://dl.dropbox.com/u/54031414/CodeChallenges/FraudPrevention/oddResult.png)
+
 
 
 * **Check empty string**. `String.equals("")` is definitely faster than `String.length() > 0`
 
-* **StringTokenizer**. It is faster than `String.split(Object delimiter)` for
-* long strings. The solution code I presented here has not been implemented with `StringTokenizer` yet.
+* **StringTokenizer**. It is faster than `String.split(Object delimiter)` for long strings. The solution code I presented here has not been implemented with `StringTokenizer` yet.
 
 
     
