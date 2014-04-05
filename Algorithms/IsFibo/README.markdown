@@ -3,10 +3,9 @@ You are given an integer N, can you check if the number is an element of fibonac
 
 Formally:
 
-```fib(0) = 0
-fib(1) = 1
-fib(n) = fib(n-1) + fib(n-2) ∀ n > 1
-```
+        fib(0) = 0
+        fib(1) = 1
+        fib(n) = fib(n-1) + fib(n-2) ∀ n > 1
 
 ** Input Format **
 First line contains T, number of test cases. 
@@ -20,23 +19,19 @@ Output “IsFibo” (without quotes) if N is a fibonacci number and “IsNotFibo
 1 <= N <= 1010
 
 ** Sample Input **
-```3
-5
-7
-8
-```
+        3
+        5
+        7
+        8
+
 ** Sample Output **
 
-```IsFibo
-IsNotFibo
-IsFibo
-Explanation
-5 is a Fibonacci number given by fib5 = 3 + 2
-7 is not a Fibonacci number
-8 is a Fibonacci number given by fib6 = 5 + 3
-```
+        IsFibo
+        IsNotFibo
+        IsFibo
 
 ** Explanation **
-5 is a Fibonacci number given by fib5 = 3 + 2
-7 is not a Fibonacci number
-8 is a Fibonacci number given by fib6 = 5 + 3
+        5 is a Fibonacci number given by fib5 = 3 + 2
+        7 is not a Fibonacci number
+        8 is a Fibonacci number given by fib6 = 5 + 3
+
