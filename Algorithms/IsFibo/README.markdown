@@ -7,30 +7,33 @@ Formally:
         fib(1) = 1
         fib(n) = fib(n-1) + fib(n-2) ∀ n > 1
 
-** Input Format **
+**Input Format**
 First line contains T, number of test cases. 
 T lines follows. Each line will contain an integer N.
 
-** Output Format **
+**Output Format**
 Output “IsFibo” (without quotes) if N is a fibonacci number and “IsNotFibo” (without quotes) if it is not a fibonacci number, in a new line corresponding to each test case.
 
-** Constraints **
-1 <= T <= 105
-1 <= N <= 1010
+**Constraints**
+        
+        1 <= T <= 105
+        1 <= N <= 1010
 
-** Sample Input **
+**Sample Input**
+
         3
         5
         7
         8
 
-** Sample Output **
+**Sample Output**
 
         IsFibo
         IsNotFibo
         IsFibo
 
-** Explanation **
+**Explanation**
+
         5 is a Fibonacci number given by fib5 = 3 + 2
         7 is not a Fibonacci number
         8 is a Fibonacci number given by fib6 = 5 + 3
