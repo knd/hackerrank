@@ -27,6 +27,6 @@ In the example each of you and your friends should buy one flower. in this case 
 
 **Constraint :**
 
-1 <= N, K  <= 100
+1 <= N, K  <= 100.
 Each ci is not more than 1,000,000
 
